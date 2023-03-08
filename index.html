@@ -1,0 +1,47 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>OTP Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <h1>OTP Input</h1>
+    <div class="inputBox">
+      <input
+        type="text"
+        maxlength="1"
+        id="k1"
+        onkeyup="clickEvent(this, 'k2')"
+      />
+      <input
+        type="text"
+        maxlength="1"
+        id="k2"
+        onkeyup="clickEvent(this, 'k3')"
+      />
+      <input
+        type="text"
+        maxlength="1"
+        id="k3"
+        onkeyup="clickEvent(this, 'k4')"
+      />
+      <input
+        type="text"
+        maxlength="1"
+        id="k4"
+        onkeyup="clickEvent(this, 'k5')"
+      />
+      <input
+        type="text"
+        maxlength="1"
+        id="k5"
+        onkeyup="clickEvent(this, 'k6')"
+      />
+      <input type="text" maxlength="1" id="k6" />
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
